@@ -1,6 +1,5 @@
 package com.cidadeinfo.cidadeinfoapi.fileHandling;
 
-import com.cidadeinfo.cidadeinfoapi.FileHandling.FileHandling;
 import com.cidadeinfo.cidadeinfoapi.apiHandling.ApiHandling;
 import org.json.simple.JSONArray;
 import org.junit.Before;

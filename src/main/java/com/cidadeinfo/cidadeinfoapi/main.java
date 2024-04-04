@@ -1,7 +1,5 @@
 package com.cidadeinfo.cidadeinfoapi;
 
-import com.cidadeinfo.cidadeinfoapi.FileHandling.FileHandling;
-import com.cidadeinfo.cidadeinfoapi.apiHandling.ApiHandling;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

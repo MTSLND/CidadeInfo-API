@@ -1,4 +1,4 @@
-package com.cidadeinfo.cidadeinfoapi.FileHandling;
+package com.cidadeinfo.cidadeinfoapi.fileHandling;
 
 import com.cidadeinfo.cidadeinfoapi.apiHandling.ApiHandling;
 import org.json.simple.JSONArray;
