@@ -1,4 +1,4 @@
-##CidadeInfo API
+# CidadeInfo API
 
 Este projeto é um trabalho da faculdade que fiz para obter informações sobre municípios brasileiros, utilizando dados fornecidos pelo IBGE.
 ## Descrição
