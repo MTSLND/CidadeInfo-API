@@ -10,4 +10,5 @@ Permite que você obtenha informações sobre os municípios brasileiros, inclui
 ## Funcionalidades
 
   Buscar Municípios: Informe a UF (Unidade Federativa) desejada e clique em "Buscar" para obter informações sobre os municípios correspondentes.
+  
   Gerar Arquivo CSV: Clique no botão "Gerar CSV" para criar um arquivo CSV contendo as informações dos municípios da UF especificada.
