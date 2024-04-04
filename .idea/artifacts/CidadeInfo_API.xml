@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="CidadeInfo-API">
+    <output-path>$PROJECT_DIR$/out/artifacts/CidadeInfo_API</output-path>
+    <root id="root">
+      <element id="archive" name="CidadeInfo_API.jar">
+        <element id="module-output" name="CidadeInfo-API" />
+      </element>
+    </root>
+  </artifact>
+</component>

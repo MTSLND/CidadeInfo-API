@@ -1,0 +1,4 @@
+com\cidadeinfo\cidadeinfoapi\apiHandling\ApiHandling.class
+com\cidadeinfo\cidadeinfoapi\HelloApplication.class
+com\cidadeinfo\cidadeinfoapi\HelloController.class
+module-info.class
