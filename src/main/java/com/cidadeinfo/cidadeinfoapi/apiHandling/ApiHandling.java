@@ -131,4 +131,20 @@ public class ApiHandling {
         return estados;
     }
 
+    public JSONArray getMesorregiao() throws Exception{
+        String apiUrl = "https://servicodados.ibge.gov.br/api/v1/localidades/estados/"+ UF +"/mesorregioes";
+        JSONArray data = getArray(apiUrl);
+        JSONArray mesorregioes = new JSONArray();
+            for (Object obj : data){
+                JSONObject tempJson = new JSONObject();
+                // Tranforma o objeto obj em um Json Object
+                JSONObject complJson = (JSONObject) obj;
+                tempJson.put("nome", complJson.get("nome"));
+                tempJson.put("id", complJson.get("id"));
+                // Salva o objeto no array de Json's
+                mesorregioes.add(tempJson);
+            }
+        return mesorregioes;
+    }
+
 }

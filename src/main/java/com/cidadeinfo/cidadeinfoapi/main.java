@@ -1,5 +1,7 @@
 package com.cidadeinfo.cidadeinfoapi;
 
+import com.cidadeinfo.cidadeinfoapi.apiHandling.ApiHandling;
+import com.cidadeinfo.cidadeinfoapi.fileHandling.FileHandling;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -44,12 +46,12 @@ public class main extends Application {
     public static void main(String[] args) throws Exception {
         try{
             launch();
-
-           //var apiHandling = new ApiHandling();
-           //var fileHandling = new FileHandling(apiHandling);
-           //apiHandling.setUF("sp");
-           //System.out.println(apiHandling.getCidades());
-           //fileHandling.createCSV();
+           // var apiHandling = new ApiHandling();
+           // var fileHandling = new FileHandling(apiHandling);
+           // apiHandling.setUF("mg");
+           // System.out.println(apiHandling.getCidades());
+           // System.out.println(apiHandling.getMesorregiao());
+           // fileHandling.createCSV();
 
         }catch(Exception e){
             throw new Exception("Ocorreu um erro inesperado: " + e.getMessage());
